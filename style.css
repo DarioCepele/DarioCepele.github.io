@@ -1,4 +1,4 @@
-* {
+ * {
     padding: 0px;
     margin: 0px;
 }
@@ -50,49 +50,27 @@
     padding-left: 200px;
 
 }
-.fa-home {
-    display: flex;
+/* NAV-BAR */
+.icons-header {
     position: absolute;
-    margin-top: 14px;
-    margin-left: 960px;
+    right: 140px;
     font-size: 26px;
+    top: 16px;
+    padding-left: 20px;
+    padding-right: 5px;
+    width: 280px;
 }
-#header-plan {
-    display: flex;
-    position: absolute;
-    margin-top: 14px;
-    margin-left: 1010px;
-    font-size: 26px;
+.fa-home, #header-plan, .fa-compass, #header-heart, #user {
+    padding-left: 20px;
 }
 #header-plan:hover {
     color: turquoise;
 }
-.fa-compass {
-    display: flex;
-    position: absolute;
-    margin-top: 14px;
-    margin-left: 1060px;
-    font-size: 26px;
-}
 .fa-compass:hover {
     color: royalblue;
 }
-#header-heart {
-    display: flex;
-    position: absolute;
-    margin-top: 14px;
-    margin-left: 1110px;
-    font-size: 26px;
-}
 #header-heart:hover {
     color: red;
-}
-#user {
-    display: flex;
-    position: absolute;
-    margin-top: 14px;
-    margin-left: 1160px;
-    font-size: 26px;
 }
 #user:hover {
     color: darkslateblue;
@@ -167,8 +145,9 @@
     position: absolute;
     font-size: 28px;
     margin-top: 17px;
-    margin-left: 630px;
+    margin-left: 630px
 }
 .add_remove_hearth {
     color: red;
+    
 }
