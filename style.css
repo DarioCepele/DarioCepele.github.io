@@ -4,15 +4,15 @@
 }
 .container {
     display: flex;
-    height: 100vh;
+    height: 100%;
     background-color: white;
 }
 /* NAV-BAR */
 .nav-bar {
     display: flex;
     background-color: rgb(255, 255, 255);
-    height: 9vh;
-    width: 460vh;
+    height: 60px;
+    width: 1370px;
     border: none;
     box-shadow: black rgba(0, 0, 0, 0.5px);
     border-bottom: 1.5px solid rgb(231, 230, 230);
@@ -27,7 +27,7 @@
     display: flex;
     margin-top: 13px;
     margin-bottom: 13px;
-    margin-left: 48vh;
+    margin-left: 315px;
     border-radius: 2px;
     width: 210px;
     border: 1px solid rgb(173, 170, 170);
@@ -39,7 +39,7 @@
     display: flex;
     position: absolute;
     margin-left: 635px;
-    margin-top: 23px;
+    margin-top: 24px;
     color: gray;
     font-size: 13px;
 }
