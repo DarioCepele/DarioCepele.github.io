@@ -1,27 +1,266 @@
-.navbar-nav {
+/* helper */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{font-family: 'Heebo', sans-serif; position: relative;background-color: #fff;}
+.big-text {font-size: 60px; font-weight: 500;}
+.normal-text{font-size: 20px;}
+.small-text {font-size: 14px;}
+/* HEADER */
+.header {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(60deg, #FFC312, #F79F1F);
+}
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+.logo {
+    border: 1px solid red;
+    width: 90px;
+    height: 50px;
     position: absolute;
-    right: 30px;
+    top: 10px;
+    left: 15px;
 }
-.nav-item {
-    padding-right: 25px;
+.lis {
+    width: 50%;
+    height: 20px;
+    position: absolute;
+    top: 25px;
+    left: 150px;
 }
-.contact {
-    background-color: #ffa801;
-    padding-right: 12px !important;
-    padding-left: 9px !important;
-    border-radius: 20px;
+.lis li {display: inline; text-decoration: none;padding: 10px; margin: auto; color: #22434c;font-size: 18px;}
+.cta {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    background-color: #0652DD;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    
 }
-.backPhoto {
-    background-size: cover;
-    max-width: 100%;
+/* HERO */
+.hero {
+    height: 100vh;  /* 587 732 */
+    background: linear-gradient(0deg,rgba(0,0,0,.2), rgba(0,0,0, 0.9)), url('img/foto1.jpg') no-repeat center center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+.hero__content {
+    width: 50%;
+    max-width: 1350px;
+    margin-left: 20%;
+    color: white;
+    position: absolute;
+    
+}
+.about {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    color: #fff;
+}
+.p1 {
+    position: absolute;
+    top: 120px;
+    left: 5px;
+    color: #fff;
+    
+}
+.an {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+}
+/*MEDIUM BOX*/
+.mediumPage1 {
+    position: relative;
+    background: linear-gradient(120deg, #FFC312, #F79F1F);
+    height: 500px;
+    margin-top: 70px;
+}
+/*BOX TEXT*/
+.boxText1 {
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    width: 600px;
+    color: #fff;
+    font-size: 30px;
+}
+.imgM {
+    position: absolute;
+    right: 40px;
+    top: 65px;
+    width: 600px;
 }
 
-.mePhoto {
+
+/* SERVICE BOX */
+.mediumPage2 {
     position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    top: -140px;
-    max-width: 100%;
-    background-size: cover;
+    margin-top: 70px;
+    background: linear-gradient(120deg, #F79F1F, #FFC312);
+    height: 500px;
+    
 }
+.h2Serice {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    color: #fff;
+}
+.mask {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    transform: translate(-20%, -25%);
+    font-size: 50px;
+    color: #000;
+}
+.h3Mask {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-20%, -40%);
+}
+.concert {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    width: 85px;
+}
+.h3Concert {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+.camera {
+    position: absolute;
+    top: 25%;
+    right: 20%;
+    transform: translate(20%, -25%);
+    width: 80px;
+}
+.h3Camera {
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    transform: translate(20%, -40%);
+}
+.h3Camera1 {
+    position: absolute;
+    top: 44%;
+    right: 20.8%;
+    transform: translate(20.8%, -44%);
+}
+.mic {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-20%, -70%);
+    width: 80px;
+}
+.h3Mic {
+    position: absolute;
+    top: 80%;
+    left: 17%;
+    transform: translate(-17%, -80%);
+}
+.ales {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    width: 100px;
+}
+.h3ales {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+}
+.h3Ales1 {
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -84%);
+}
+.att {
+    position: absolute;
+    top: 71%;
+    right: 20%;
+    transform: translate(20%, -71%);
+    width: 110px;
+}
+.h3Att {
+    position: absolute;
+    top: 80%;
+    right: 19.5%;
+    transform: translate(19.5%, -80%);
+}
+.h3Att1 {
+    position: absolute;
+    top: 84%;
+    right: 20.7%;
+    transform: translate(20.7%, -84%);
+}
+/* GALLERY */
+.boxGallery {
+    width: 100%;
+    height: 500px;
+    margin: 70px 0px;
+    background: linear-gradient(120deg, #FFC312, #F79F1F);
+}
+.con1 {
+    position: relative;
+    width: 350px;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%, -50%);
+    border-radius: 10px;
+}
+.con2 {
+    position: relative;
+    width: 350px;
+    top: 50%;
+    left: 20%;
+    transform: translate(-20%, -50%);
+    border-radius: 10px;
+}
+.con3 {
+    position: relative;
+    width: 350px;
+    top: 50%;
+    left: 30%;
+    transform: translate(-30%, -50%);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+/*FOOTER*/
+.footer {
+    background-color: #d38c09;
+    height: 200px;
+    margin-top: 70px;
+}
+
+
