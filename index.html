@@ -2,73 +2,81 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css" type="text/css" media="all">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dario Cepele</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />    
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css" media="all">
+    <title>Document</title>
 </head>
 <body>
-    <div class="head">
-      <!--navbar-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#"><img src="logo.png" width="270"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item contact">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-          </div>
-        </nav>
-        <!--background-->
-        <img src="background.jpg" class="backPhoto" width="100%">
-        <img src="me.png" class="mePhoto" width="250">
+    <!--HEADER-->
+    <div class="header">
+        <div class="logo"></div>
+        <ul class="lis">
+            <li><a href="#" class="link">Home</a></li>
+            <li><a href="#about" class="link">About</a></li>
+            <li><a href="#service" class="link">Service</a></li>
+        </ul>
+        <a href="#" class="cta">
+            Contact
+        </a>
     </div>
-    <div class="container">
-      <div class="card-deck">
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
+    <!--MAIN PAGE-->
+    <div class="hero">
+        <div class="hero__content reveal">
+            <h3 class="big-text">Service Audio-Luci</h3>
+            <p class="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-      </div>
+        <p class="an" id="about">.</p>
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!--CENTER PAGE-->
+    <div class="mediumPage1">
+        <h2 class="about">Chi Siamo</h2>
+        <div class="boxText1 reveal">
+            <p>se un service bello vuoi fare Daniele Ciliento devi chiamare</p>
+        </div>
+        <img src="img/fotoametà.jpg" alt="" class="imgM reveal2">
+    </div>
+
+    <div class="mediumPage2">
+        <h2 class="h2Serice" id="service">Servizi</h2>
+        <i class="fas fa-theater-masks mask "></i>
+        <h3 class="h3Mask reveal2">TEATRO</h3>
+        <img src="img/concert.png" alt="" class="concert">
+        <h3 class="h3Concert reveal2">CONCERTI</h3>
+        <img src="img/camera.PNG" alt="" class="camera">
+        <h3 class="h3Camera reveal2">LED WALL</h3>
+        <h3 class="h3Camera1 reveal2">VIDEO</h3>
+        <img src="img/mircrofono.PNG" alt="" class="mic">
+        <h3 class="h3Mic reveal2">CONVEGNI E CONFERENE</h3>
+        <img src="img/ales.PNG" alt="" class="ales">
+        <h3 class="h3ales reveal2">ALLESTIMENTO</h3>
+        <h3 class="h3Ales1 reveal2">PALCO E SEDIE</h3>
+        <img src="img/att.PNG" alt="" class="att">
+        <h3 class="h3Att reveal2">ALLESTIMENTI</h3>
+        <h3 class="h3Att1 reveal2">TECNICI</h3>
+    </div>
+    <div class="boxGallery">
+        <img src="img/con1.jpg" alt="" class="con1">
+        <img src="img/con2.jpg" alt="" class="con2">
+        <img src="img/con3.jpg" alt="" class="con3">
+    </div>
+    
+
+
+
+
+
+
+    <!--FOOTER-->
+    <div class="footer">
+
+    </div>
+    <script>
+        ScrollReveal().reveal('.reveal', { distance: '70px',  duration: 2000}); //text fx
+        ScrollReveal().reveal('.reveal2', { distance: '50px', delay: 500, duration: 2000 }); //img
+        ScrollReveal().reveal('.reveal3', { distance: '60px', delay: 1500, duration: 2000 }); 
+    </script>
 </body>
 </html>
