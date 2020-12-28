@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{font-family: 'Heebo', sans-serif; position: relative;background-color: #fff;}
+body{font-family: 'Heebo', sans-serif; position: relative;background-color:white;overflow-y: auto;}
 .big-text {font-size: 60px; font-weight: 500;}
 .normal-text{font-size: 20px;}
 .small-text {font-size: 14px;}
@@ -13,19 +13,27 @@ body{font-family: 'Heebo', sans-serif; position: relative;background-color: #fff
     position: relative;
     width: 100%;
     height: 70px;
-    background: linear-gradient(60deg, #FFC312, #F79F1F);
+    /*background: linear-gradient(90deg, rgba(254,255,0,1) 30%, rgba(255,188,0,1) 60%);*/
+    background-color:#323232;
 }
 .link {
     text-decoration: none;
     color: #fff;
 }
 .logo {
-    border: 1px solid red;
     width: 90px;
     height: 50px;
     position: absolute;
     top: 10px;
     left: 15px;
+}
+.logo-item {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 30px;
 }
 .lis {
     width: 50%;
@@ -38,14 +46,13 @@ body{font-family: 'Heebo', sans-serif; position: relative;background-color: #fff
 .cta {
     position: absolute;
     right: 40px;
-    top: 20px;
-    background-color: #0652DD;
+    top: 17px;
+    background-color: #ffa41b;
     color: #fff;
-    padding: 5px;
+    padding: 6px 15px;
     text-align: center;
     border-radius: 4px;
     text-decoration: none;
-    
 }
 /* HERO */
 .hero {
@@ -86,7 +93,7 @@ body{font-family: 'Heebo', sans-serif; position: relative;background-color: #fff
 /*MEDIUM BOX*/
 .mediumPage1 {
     position: relative;
-    background: linear-gradient(120deg, #FFC312, #F79F1F);
+    background-color: #323232;
     height: 500px;
     margin-top: 70px;
 }
@@ -103,7 +110,8 @@ body{font-family: 'Heebo', sans-serif; position: relative;background-color: #fff
     position: absolute;
     right: 40px;
     top: 65px;
-    width: 600px;
+    width: 500px;
+    border-radius: 7px;
 }
 
 
@@ -111,7 +119,7 @@ body{font-family: 'Heebo', sans-serif; position: relative;background-color: #fff
 .mediumPage2 {
     position: relative;
     margin-top: 70px;
-    background: linear-gradient(120deg, #F79F1F, #FFC312);
+    background-color:#ededed;
     height: 500px;
     
 }
@@ -120,7 +128,7 @@ body{font-family: 'Heebo', sans-serif; position: relative;background-color: #fff
     top: 10%;
     left: 50%;
     transform: translate(-50%, -10%);
-    color: #fff;
+    color: #000;
 }
 .mask {
     position: absolute;
@@ -220,47 +228,64 @@ body{font-family: 'Heebo', sans-serif; position: relative;background-color: #fff
     transform: translate(20.7%, -84%);
 }
 /* GALLERY */
+
 .boxGallery {
     width: 100%;
     height: 500px;
     margin: 70px 0px;
-    background: linear-gradient(120deg, #FFC312, #F79F1F);
+    background-color:#ededed;
+    position: relative;
+}
+.con1, .con2, .con3 {
+    width: 400px;
+    border-radius: 5px;
 }
 .con1 {
-    position: relative;
-    width: 350px;
+    position: absolute;
     top: 50%;
-    left: 10%;
-    transform: translate(-10%, -50%);
-    border-radius: 10px;
+    left: 5%;
+    transform: translateY(-50%);
 }
 .con2 {
-    position: relative;
-    width: 350px;
+    position: absolute;
     top: 50%;
-    left: 20%;
-    transform: translate(-20%, -50%);
-    border-radius: 10px;
+    left: 36.5%;
+    transform: translateY(-50%);
 }
 .con3 {
-    position: relative;
-    width: 350px;
+    position: absolute;
     top: 50%;
-    left: 30%;
-    transform: translate(-30%, -50%);
-    border-radius: 10px;
+    left: 68%;
+    transform: translateY(-50%);
 }
-
-
-
-
-
-
 /*FOOTER*/
 .footer {
-    background-color: #d38c09;
-    height: 200px;
+    background-color: #323232;
+    height: 300px;
     margin-top: 70px;
 }
+/*Media*/
+@media screen and (max-width: 600px) {
+    .header {
+        position: relative;
+        width: 100vh;
+        height: 70px;
+        background-color:#323232;
+    }
+    .lis li {
+        font-size: 20px;
+    }
+    .hero {
+        
+        background: linear-gradient(0deg,rgba(0,0,0,.2), rgba(0,0,0, 0.9)), url('img/foto1.jpg') no-repeat center center;
+        align-items: center;
+        width: 100vh;
+        position: relative;
+    }
+    .logo-item {
+        font-size: 30px;
+    }
+}
+
 
 
