@@ -21,19 +21,11 @@ body{font-family: 'Heebo', sans-serif; position: relative;background-color:white
     color: #fff;
 }
 .logo {
-    width: 90px;
-    height: 50px;
-    position: absolute;
-    top: 10px;
+    position: relative;
     left: 15px;
 }
-.logo-item {
-    text-align: center;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    color: white;
-    font-size: 30px;
+.logoImg {
+    width: 85px;
 }
 .lis {
     width: 50%;
@@ -265,26 +257,40 @@ body{font-family: 'Heebo', sans-serif; position: relative;background-color:white
     margin-top: 70px;
 }
 /*Media*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
+    /*header*/
     .header {
-        position: relative;
-        width: 100vh;
-        height: 70px;
-        background-color:#323232;
+        width: 100vw;
     }
-    .lis li {
-        font-size: 20px;
-    }
-    .hero {
-        
-        background: linear-gradient(0deg,rgba(0,0,0,.2), rgba(0,0,0, 0.9)), url('img/foto1.jpg') no-repeat center center;
-        align-items: center;
-        width: 100vh;
-        position: relative;
+    .logo {
+        border: 1px solid red;
     }
     .logo-item {
-        font-size: 30px;
+        font-size: 20px;
     }
+    .lis {
+        left: 80px;
+    }
+    .lis li {
+        font-size: 10px;
+    }
+    .cta {
+        position: absolute;
+        right: 65px;
+        top: 20px;
+        background-color: #ffa41b;
+        color: #fff;
+        padding: 1px 2px;
+        text-align: center;
+        border-radius: 4px;
+        text-decoration: none;
+    }
+    /*hero*/
+    .hero {
+        width: 100vw;
+        height: 170vh;
+    }
+    
 }
 
 
