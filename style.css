@@ -263,21 +263,21 @@ body{font-family: 'Heebo', sans-serif; position: relative;background-color:white
         width: 100vw;
     }
     .logo {
-        border: 1px solid red;
+        
     }
     .logo-item {
         font-size: 20px;
     }
     .lis {
-        left: 80px;
+        left: 110px;
     }
     .lis li {
         font-size: 10px;
     }
     .cta {
         position: absolute;
-        right: 65px;
-        top: 20px;
+        right: 20px;
+        top: 25px;
         background-color: #ffa41b;
         color: #fff;
         padding: 1px 2px;
