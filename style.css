@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navs {
+  padding-left: 50px;
+}
+.al {
+  padding-right: 250px;
+}
+body {
+  /*background: linear-gradient(to left, #f0e0d8, #dec0f1, #80cfa9);*/
+  background-color: white;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+}
+.box {
+  border: 1px solid red;
+  margin: 60px;
+  display: inline-flex;
+}
+.txt {
+  border: 1px solid red;
+  font-size: 40px;
+}
+.foglia {
+  border: 1px solid red;
+}
