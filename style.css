@@ -22,8 +22,13 @@ body {
 }
 .txt {
   border: 1px solid red;
-  font-size: 40px;
+  font-size: 25px;
 }
 .foglia {
   border: 1px solid red;
+}
+.boxVideo {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
 }
