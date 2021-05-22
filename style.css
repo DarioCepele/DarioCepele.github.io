@@ -22,7 +22,7 @@ body {
 }
 .txt {
   border: 1px solid red;
-  font-size: 25px;
+  font-size: 18px;
 }
 .foglia {
   border: 1px solid red;
@@ -31,4 +31,10 @@ body {
   position: relative;
   height: 100vh;
   overflow: hidden;
+}
+.row {
+  border: 1px solid red;
+}
+.col {
+  border: 1px solid red;
 }
