@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>FoodOverflow</title>
 </head>
@@ -33,23 +34,29 @@
               <li class="nav-item navs">
                 <a class="nav-link" href="#pe">Personale</a>
               </li>
+              <li class="nav-item navs">
+                <a class="nav-link" href="#in">Informazioni</a>
+              </li>
             </ul>
           </div>
-          <button type="button" class="btn btn-success">Contact</button>
+          <button type="button" class="btn btn-success" ><a href="#co" class="con">Contact</a></button>
         </div>
     </nav>
-    <div class="boxVideo">
-        <video src="img/video.mp4" autoplay loop muted></video>
+    <div class="h">
+        <div class="boxVideo">
+            <video src="img/video.mp4" autoplay loop muted></video>
+        </div>
+        <p class="head">FOODOVERFLOW</p>
+        
     </div>
-    
-    
+    <div id="fg"></div>
     
 
-    <div class="box">
-        <div class="txt">
+    <div class="box" >
+        <div class="txt" >
             <span class="Title">Forma Giuridica</span>
             <p> 
-                Le Fondazioni di Comunità sono enti non profit con personalità giuridica, privata e autonoma che nascono e si sviluppano anche su iniziativa di soggetti istituzionali, economici e del Terzo Settore di uno specifico territorio. Il loro scopo è quello di migliorare la qualità della vita della comunità presso la quale sorgono. Operano come snodo fra le parti sociali presenti in una specifica area geografica lavorando con <br> loro sui bisogni emergenti e sull’implementazione della cultura e della pratica del dono.
+                Le Fondazioni di Comunità sono enti non profit con personalità giuridica, privata e autonoma che nascono e si sviluppano anche su iniziativa di soggetti istituzionali, economici e del Terzo Settore di uno specifico territorio. Il loro scopo è quello di migliorare la qualità della vita della comunità presso la quale sorgono. Operano come snodo fra le parti sociali presenti in una specifica area geografica lavorando con loro sui bisogni emergenti e sull’implementazione della cultura e della pratica del dono.
                 Caratteristiche: 
                 Catalizzatori di sinergie locali,
                 Fanno attività di raccolta fondi,
@@ -58,16 +65,16 @@
             </p>
         </div>
         <div class="foglia">
-            <img src="img/foglia.png">
+            <img src="img/logoBunGrande.png" >
         </div>
     </div>
+    <div id="mi"></div>
 
-
-    <div class="box"  id="mi">
+    <div class="box" >
         <div class="foglia">
-            <img src="img/foglia.png">
+            <img src="img/mission.jpeg" width="500" class = "imgMission">
         </div>
-        <div class="txt">
+        <div class="txtMission">
             <span class="Title">Mission</span>
             <p> 
                 Lo spreco alimentare è il fenomeno della perdita di cibo ancora commestibile che si ha lungo tutta la catena di produzione e di consumo del cibo.
@@ -76,9 +83,9 @@
             </p>
         </div>
     </div>
+    <div id="sl"></div>
 
-
-    <div class="box" id="sl">
+    <div class="box" >
         <div class="txt1">
             <span class="Title">Struttura logistica</span>
             <p>
@@ -89,14 +96,15 @@
             </p>
         </div>
         <div class="foglia">
-            <img src="img/foglia.png">
+            <img src="img/logistica.jpeg" width="500" class="imgLogistica">
         </div>
     </div>
+    <div id="pe"></div>
 
 
-    <div class="box" id="pe">
+    <div class="box" >
         <div class="foglia">
-            <img src="img/foglia.png">
+            <img src="img/personale.PNG" class="imgMission">
         </div>
         <div class="txt1" >
             <span class="Title">Personale</span>
@@ -160,19 +168,43 @@
             </div>
         </div>
     </div>
-    
+    <div id="in"></div>
 
     <!--Footer-->
-    <div class="footer">
-
+    
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Servizi</h3>
+                        <ul>
+                            <li><a href="#">Stoccaggio di cibo</a></li>
+                            <li><a href="#">Distribuzione di cibo</a></li>
+                            <li><a href="#">Volontariato</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="img/attoCostitutivo.pdf">Atto Costitutivo</a></li>
+                            <li><a href="img/costiProgetto.pdf">Costi del progetto</a></li>
+                            <li><a href="#">Pubblicità</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>FOODOVERFLOW</h3>
+                        <p>Fondazione il cui obbietivo e rendere le persone più bisognose meno tristi e più felici di vivere</p>
+                    </div>
+                    <div class="col item social"><a href="https://www.instagram.com/foodoverflowofficial/"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a></div>
+                </div>
+                <p class="copyright">FoodOverflow © 2021</p>
+            </div>
+        </footer>
     </div>
+    <div id="co"></div>
     
-    
-
-
-
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 </body>
 </html>
