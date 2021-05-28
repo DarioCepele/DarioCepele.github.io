@@ -24,29 +24,23 @@ body {
   font-weight: 500;
 }
 .box {
-  
   margin: 60px;
   display: inline-flex;
 }
 .txt {
-  
   font-size: 18px;
+  align-items: center;
 }
-.foglia {
-  
-}
+
 .boxVideo {
   position: relative;
   height: 100vh;
   overflow: hidden;
 }
-/*.row {
-  
-}
-.col {
-  
-}
-*/
+
 img {
   border-radius: 5px;
+}
+.col {
+  font-size: 13px;
 }
