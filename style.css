@@ -9,6 +9,14 @@
 .al {
   padding-right: 250px;
 }
+#ow {
+  font-weight: 700;
+  color: #099420;
+}
+#fo {
+  font-weight: 700;
+  color: #08ca18;
+}
 body {
   /*background: linear-gradient(to left, #f0e0d8, #dec0f1, #80cfa9);*/
   background-color: white;
@@ -21,20 +29,24 @@ body {
   display: inline-flex;
 }
 .txt {
-  border: 1px solid red;
+  
   font-size: 18px;
 }
 .foglia {
-  border: 1px solid red;
+  
 }
 .boxVideo {
   position: relative;
   height: 100vh;
   overflow: hidden;
 }
-.row {
-  border: 1px solid red;
+/*.row {
+  
 }
 .col {
-  border: 1px solid red;
+  
+}
+*/
+img {
+  border-radius: 5px;
 }
