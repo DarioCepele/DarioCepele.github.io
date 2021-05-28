@@ -29,9 +29,12 @@ body {
 }
 .txt {
   font-size: 18px;
-  align-items: center;
+  position: relative;
+  top: 70px;
 }
-
+.txt1 {
+  font-size: 18px;
+}
 .boxVideo {
   position: relative;
   height: 100vh;
