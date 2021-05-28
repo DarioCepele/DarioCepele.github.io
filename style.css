@@ -24,12 +24,11 @@ body {
   font-weight: 500;
 }
 
-.video-container {
-  position: relative;
-  top: 0;
-  left: 0%;
+.boxVideo {
   height: 100vh;
-  overflow: hidden;
+}
+video {
+  width: 100%;
 }
 
 .box {
