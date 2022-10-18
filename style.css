@@ -6,22 +6,7 @@
 .navs {
   padding-left: 50px;
 }
-.al {
-  padding-right: 100px;
-}
-#ow {
-  font-weight: 700;
-  color: #099420;
-}
-#fo {
-  font-weight: 700;
-  color: #08ca18;
-}
-.con {
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
-}
+
 body {
   /*background: linear-gradient(to left, #f0e0d8, #dec0f1, #80cfa9);*/
   background-color: white;
