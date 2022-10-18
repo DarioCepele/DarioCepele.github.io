@@ -61,6 +61,13 @@ video {
   text-shadow: 4px 3px 0 #7a7a7a;
 }
 
+/*BODY*/
+
+.container{
+  display: flex;
+}
+
+
 
 .col {
   font-size: 13px;
