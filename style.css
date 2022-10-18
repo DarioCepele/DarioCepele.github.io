@@ -60,20 +60,11 @@ video {
 
   text-shadow: 4px 3px 0 #7a7a7a;
 }
-.imgMission {
-  margin-right: 50px;
-}
-.imgLogistica {
-  margin-left: 50px;
-}
-.txtMission {
-  font-size: 18px;
-  position: relative;
-  top: 10px;
-}
+
 
 .col {
   font-size: 13px;
+  border: 1px solid red;
 }
 
 /*footer*/
